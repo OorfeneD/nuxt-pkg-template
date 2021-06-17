@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-pkg-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "nuxt-start": "nuxt start",
+    "generate": "nuxt generate",
+    "start": "node app.js",
+    "server-dev": "nodemon app.js",
+    "pkg-build-debug": "pkg . --debug",
+    "pkg-build": "pkg .",
+    "preinstall": "npm install -g pkg"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "express": "^4.17.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {},
+  "bin": "app.js",
+  "pkg": {
+    "targets": [ "node12-win-x64" ],
+    "outputPath": "dist"
+  }
+}
