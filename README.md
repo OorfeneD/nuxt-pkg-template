@@ -7,33 +7,18 @@ Express in builded application can use fs relative to executable file. Nuxt **ca
 
 ## Commands overview
 
-```dev```
-
-Runs Nuxt in standalone dev mode with hot-reload.
-
-```build```
-
-Builds Nuxt files.
-
-```nuxt-start```
-
-Starts Nuxt as standalone app without hot reload.
-
-```start```
-
-Runs `app.js` with Express server and Nuxt.
-
-```server-dev```
-
-Runs `app.js` with nodemon.
-
-```pkg-build```
-
-Builds executable file with `pkg`. Output folder is `./dist`.
+|   Command    | Information |
+| :----------: | ----------- |
+| `dev`        | Runs Nuxt in standalone dev mode with hot-reload |
+| `build`      | Builds Nuxt files |
+| `nuxt-start` | Starts Nuxt as standalone app without hot reload |
+| `start`      | Runs `app.js` with Express server and Nuxt |
+| `server-dev` | Runs `app.js` with nodemon |
+| `pkg-build`  | Builds executable file with `pkg`. Output folder is `./dist` |
 
 ## Configuration
 
-To config pkg build edit `"pkg"` variable in `package.json`. 
+To config pkg build edit `"pkg"` variable in `package.json`.
 It looks like this:
 
 ```json
